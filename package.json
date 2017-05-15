@@ -1,0 +1,29 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendanlayton/Project-11---Optimizing-a-Site-for-Performance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendanlayton/Project-11---Optimizing-a-Site-for-Performance/issues"
+  },
+  "homepage": "https://github.com/brendanlayton/Project-11---Optimizing-a-Site-for-Performance#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^2.8.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^2.1.2"
+  }
+}
