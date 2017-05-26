@@ -1,5 +1,5 @@
 .hero {
-    background: url("../img/photos/photo4.jpg") no-repeat center center;
+    background: url("../img/photos/header-mobile.jpg") no-repeat center center;
     background-size: cover;
     height: 60vh;
     margin-bottom: 1rem;
@@ -7,12 +7,11 @@
 }
 .hero .info {
     float: right;
-    margin-top: 47vh;
+    margin-top: 34vh;
 }
 .hero .info .attribution {
     color: rgb(235, 236, 237);
-    font-family: "Ubuntu";
-    font-size: 0.95rem;
+    font: 0.95rem "Ubuntu";
     float: left;
     text-align: right;
 }
@@ -27,4 +26,56 @@
     height: 50px;
     margin-left: 1rem;
     width: 50px;
+}
+
+/* ========================================================
+		MEDIA QUERIES
+======================================================== */
+
+@media screen and (min-width: 768px) {
+	
+	.hero {
+		background: url("../img/photos/header-desktop.jpg") no-repeat center center;
+		height: 30rem;
+	}
+
+	.hero .info {
+			margin-top: 20rem;
+	}
+	
+}
+
+@media screen and (min-width: 1024px) {
+	
+/*
+	.hero {
+		height: 60vh;
+	}
+
+	.hero .info {
+			margin-top: 45vh;
+	}
+*/
+	
+}
+
+@media screen and (min-width: 1220px) {
+	
+	.hero {
+		background: url("../img/photos/header-desktop-large.jpg") no-repeat center center;
+	}
+	
+}
+
+@media screen and (min-width: 1900px) {
+
+	.hero {
+		background: url('../img/photos/header-desktop-high-res.jpg') no-repeat center center;
+		height: 80vh;
+	}
+	
+	.hero .info {
+		margin-top: 60vh;
+	}
+	
 }
