@@ -45,8 +45,8 @@ gulp.task('sprite', function () {
 
 gulp.task('concatScripts', function() {
 	return gulp.src([
-		'js/lazyload.transpiled.min.js',
 		'js/jquery.js',
+		'js/lazyload.transpiled.min.js',
 		'js/modal.js'])
 	.pipe(concat('scripts.js'))
 	.pipe(gulp.dest('js'));
