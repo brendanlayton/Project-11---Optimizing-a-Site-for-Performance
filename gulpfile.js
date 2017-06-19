@@ -16,8 +16,8 @@ var gulp = require('gulp'),
 		csso = require('gulp-csso'),
 		merge = require('merge-stream'),
 		inlinesource = require('gulp-inline-source'),
-		htmlmin = require('gulp-htmlmin'),
-		gzip = require('gulp-gzip');
+		htmlmin = require('gulp-htmlmin');
+	//	gzip = require('gulp-gzip');
 
 gulp.task('sprite', function () {
 	// Generate spritesheet
@@ -88,7 +88,7 @@ gulp.task('minifyScripts', ['concatScripts'], function() {
             console.log(e);
          })
 			.pipe(rename('scripts.min.js'))
-			.pipe(gzip())
+			//.pipe(gzip())
 			.pipe(gulp.dest('js'));
 });
 
@@ -96,7 +96,7 @@ gulp.task('minifyStyles', ['process-css'], function() {
 	return gulp.src('css/styles.css')
 		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(rename('styles.min.css'))
-		.pipe(gzip())
+		//.pipe(gzip())
 		.pipe(gulp.dest('css'));
 });
 
@@ -136,7 +136,7 @@ gulp.task('clean', function() {
 
 
 gulp.task('build', ['minifyScripts', 'minifyStyles', 'inlinesource'], function() {
-	return gulp.src(['css/styles.min.css.gz', 'js/scripts.min.js.gz', 'index.html', 'img/**'], { base: './'})
+	return gulp.src(['css/styles.min.css', 'js/scripts.min.js', 'index.html', 'img/**'], { base: './'})
 		.pipe(gulp.dest('dist'));
 });
 
