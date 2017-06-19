@@ -1,5 +1,5 @@
 .hero {
-    background: url("../img/photos/header-mobile.jpg") no-repeat center center;
+    background: url("/page-speed-optimization/img/photos/header-mobile.jpg") no-repeat center center;
     background-size: cover;
     height: 60vh;
     margin-bottom: 1rem;
@@ -35,7 +35,7 @@
 @media screen and (min-width: 768px) {
 	
 	.hero {
-		background: url("../img/photos/header-desktop.jpg") no-repeat center center;
+		background: url("/page-speed-optimization/img/photos/header-desktop.jpg") no-repeat center center;
 		height: 30rem;
 	}
 
@@ -62,7 +62,7 @@
 @media screen and (min-width: 1220px) {
 	
 	.hero {
-		background: url("../img/photos/header-desktop-large.jpg") no-repeat center center;
+		background: url("/page-speed-optimization/img/photos/header-desktop-large.jpg") no-repeat center center;
 	}
 	
 }
@@ -70,7 +70,7 @@
 @media screen and (min-width: 1900px) {
 
 	.hero {
-		background: url('../img/photos/header-desktop-high-res.jpg') no-repeat center center;
+		background: url('/page-speed-optimization/img/photos/header-desktop-high-res.jpg') no-repeat center center;
 		height: 80vh;
 	}
 	
