@@ -173,10 +173,10 @@
         </div>
     </footer>
     <div id="modal" class="reveal-modal-bg"></div>
-		<script
+	<!--	<script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>-->
 		<script src="js/scripts.min.js"></script>
     <script>
         window.lazyLoadOptions = {
@@ -193,11 +193,11 @@
 
 			if($("#gallery").size()>0){
 							if (document.createStyleSheet){
-									document.createStyleSheet('css/styles.min.css.gz');
+									document.createStyleSheet('css/styles.min.css');
 									document.createStyleSheet('https://fonts.googleapis.com/css?family=Arvo:400|Ubuntu:300,500,700');
 							}
 							else {
-									$("head").append($("<link rel='stylesheet' href='css/styles.min.css.gz' type='text/css' media='screen' />"), ("<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo:400|Ubuntu:300,500,700' type='text/css' media='screen' />"));
+									$("head").append($("<link rel='stylesheet' href='css/styles.min.css' type='text/css' media='screen' />"), ("<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arvo:400|Ubuntu:300,500,700' type='text/css' media='screen' />"));
 							}
 					}
 			});
