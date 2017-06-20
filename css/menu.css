@@ -71,7 +71,7 @@
 }
 
 .menu .logo {
-    background: url('../img/logo-mobile.png') no-repeat top left;
+    background: url('/page-speed-optimization/img/logo-mobile.png') no-repeat top left;
     background-size: contain;
     font: 1.5rem "Arvo", serif;
     line-height: 1;
@@ -108,7 +108,7 @@
 	}
 	
 	.menu .logo {
-		background: url('../img/logo-desktop.png') no-repeat top left;
+		background: url('/page-speed-optimization/img/logo-desktop.png') no-repeat top left;
 		background-size: contain;
     width: 14rem;
     height: 3rem;
@@ -134,7 +134,7 @@
   }
 	
 	.menu .logo {
-		background-image: url('../img/logo-large-desktop.png');
+		background-image: url('/page-speed-optimization/img/logo-large-desktop.png');
 		width: 30rem;
 		margin-top: 0;
 	}
